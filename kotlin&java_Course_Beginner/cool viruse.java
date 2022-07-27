@@ -1,4 +1,4 @@
-public class cmd {
+class cmd {
     public static void main(String[] args) {
         
             
