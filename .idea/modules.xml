@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java-And-Kotlin.iml" filepath="$PROJECT_DIR$/Java-And-Kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_rest_Course/java_rest_Course.iml" filepath="$PROJECT_DIR$/java_rest_Course/java_rest_Course.iml" />
+    </modules>
+  </component>
+</project>
