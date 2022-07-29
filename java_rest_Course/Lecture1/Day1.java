@@ -75,7 +75,7 @@ class Lecture4{
             System.out.println("Yes your age is  not-complete adult");
 
         }
-        
+
 
     }
 }
