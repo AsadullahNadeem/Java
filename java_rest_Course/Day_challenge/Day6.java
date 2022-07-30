@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Scanner;
 
 public class Day6 {
@@ -8,15 +9,44 @@ public class Day6 {
 }
 class leac{
     public void lea(){
-        int a = 0;
-        int b = 0;
+        System.out.println("\n" +
+                "            _            _       _             \n" +
+                "           | |          | |     | |            \n" +
+                "   ___ __ _| | ___ _   _| | __ _| |_ ___  _ __ \n" +
+                "  / __/ _` | |/ __| | | | |/ _` | __/ _ \\| '__|\n" +
+                " | (_| (_| | | (__| |_| | | (_| | || (_) | |   \n" +
+                "  \\___\\__,_|_|\\___|\\__,_|_|\\__,_|\\__\\___/|_|   \n");
+      System.out.println(" Type Any Number\n +(1)\n *(2)\n -(3)\n /(4)\n %(5)\n");
         Scanner sc = new Scanner(System.in);
-        int AdditionSubtractionMultiplicationDivisionremainder = sc.nextInt();
-        if (AdditionSubtractionMultiplicationDivisionremainder == a + b){
-            System.out.println(" AdditionSubtractionMultiplicationDivisionremainder ");
-        }else
-        {
-            System.out.println("error");
+        int button = sc.nextInt();
+        int a , b, sum;
+        int c, d, mult;
+        int e, f, Sub;
+        int g, h,divis ;
+        int i, j, rem;
+        if (button == 1){
+            System.out.println("Type a number:");
+            a = sc.nextInt();
+            System.out.println("Type another number:");
+            b = sc.nextInt();
+            sum = a + b;
+            System.out.println("Sum is: " + sum);
+
+        }
+        else if (button == 2) {
+            System.out.println("Type a number:");
+            c = sc.nextInt();
+            System.out.println("Type Another Number:");
+            d= sc.nextInt();
+            mult = c * d;
+            System.out.println("Multiplication: " + mult);
+        } else if (button == 3) {
+            System.out.println("Type a number");
+            e = sc.nextInt();
+            System.out.println("Type Another Number:");
+            f = sc.nextInt();
+            Sub  = e-f;
+            System.out.println("Subtraction:" + Sub);
         }
     }
 }
