@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Day3switch {
+public class Day5switch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int button = sc.nextInt();
