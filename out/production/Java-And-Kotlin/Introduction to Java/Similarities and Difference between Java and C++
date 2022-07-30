@@ -1,0 +1,79 @@
+Nowadays Java and C++ programming languages are vastly used in competitive coding. Due to some awesome features, these two programming languages are widely used in industries as well. C++ is a widely popular language among coders for its efficiency, high speed, and dynamic memory utilization. Java is widely used in the IT industry, It is incomparable to any other programming language in terms of software development. Let us go through the various points to compare these popular coding languages:
+
+Similarities between Java and C++
+1. Execution: At compile-time, Java source code or .java file is converted into a bytecode or .class file. At runtime, JVM (Java Virtual Machine) will load the .class   file and will convert it to machine code with the help of an interpreter. After compilation of method calls (using the Just-In-Time (JIT) compiler), JVM will execute the optimized code. So Java is both compiled as well as an interpreted language. On the other hand, C++ executes the code by using only a compiler. The C++ compiler compiles and converts the source code into the machine code. That’s why C++ is faster than Java but not platform-independent.
+
+Below is the illustration of how Java and C++ codes are executed:
+
+The execution of a Java code is as follows:
+java-code-execution.jpg
+Execution of a C++ Code
+c.jpg
+
+2. Features: C++ and Java both have several Object Oriented programming features which provide many useful programming functionalities. Some features are supported by one and some by the other. Even though both languages use the concept of OOPs, neither can be termed 100% object-oriented languages. Java uses primitive data types and thus cannot be termed as 100% Object-Oriented Language. C++ uses some data types similar to primitive ones and can implement methods without using any data type. And thus, it is also deprived of the 100% Object-Oriented title.
+Below is the table which shows the features supported and not supported by both the programming languages:
+
+
+Features	C++	Java
+Abstraction	Yes	Yes
+Encapsulation	Yes	Yes
+Single Inheritance	Yes	Yes
+Multiple Inheritance	Yes	No
+Polymorphism	Yes	Yes
+Static Binding	Yes	Yes
+Dynamic Binding	Yes	Yes
+Operator Overloading	Yes	No
+Header Files	Yes	No
+Pointers	Yes	No
+Global Variables	Yes	No
+Template Class	Yes	No
+Interference and Packages	No	Yes
+API	No	Yes
+Applications: Both C++ and Java have vast areas of application. Below are the applications of both languages:
+
+Applications of C++ Programming language:
+Suitable for Developing large software (like passenger reservation systems).
+MySQL is written in C++.
+For fast execution, C++ is majorly used in Game Development.
+Google Chromium browser, file system, and cluster data processing are all written in C++.
+Adobe Premiere, Photoshop, and Illustrator; these popular applications are scripted in C++.
+Advanced Computations and Graphics- real-time physical simulations, high-performance image processing.
+C++ is also used in many advanced types of medical equipment like MRI machines, etc.
+Applications of Java Programming language:
+Desktop GUI Applications development.
+Android and Mobile application development.
+Applications of Java are in embedded technologies like SIM cards, disk players, TV, etc.
+Java EE (Enterprise Edition) provides an API and runtime environment for running large enterprise software.
+Network Applications and Web services like Internet connection, Web App Development.
+Environment: C++ is a Platform dependent while Java is a platform-independent programming language. We have to write and run C++ code on the same platform. Java has the WORA (Write Once and Run Everywhere) feature by which we can write our code in one platform once and we can run the code anywhere.
+
+Differences between Java and C++ are as follows:
+
+Parameters	Java	C++
+Founder	Java was developed by James Gosling at Sun Microsystems.	C++ was developed by Bjarne Stroustrup at Bell Labs in 1979 as an extension of the C language.
+First Release	On May 23, 1995	In October 1985
+Stable Release	Java SE 14 or JDK 14 was released on March 17, 2020.	C++17 was released in December 2017.
+Official Website	oracle.com/java	isocpp.org
+Influenced By:	Java was Influenced by Ada 83, Pascal, C++, C#, etc. languages.	C++ was Influenced by Influenced by Ada, ALGOL 68, C, ML, Simula, Smalltalk, etc. languages.
+Influenced to:	Java was influenced to develop BeanShell, C#, Clojure, Groovy, Hack, J#, Kotlin, PHP, Python, Scala, etc. languages.	C++ was influenced to develop C99, Java, JS++, Lua, Perl, PHP, Python, Rust, Seed7, etc. languages.
+Platform Dependency	Platform independent, Java bytecode works on any operating system.	Platform dependent, should be compiled for different platforms.
+Portability	It can run in any OS hence it is portable.	C++ is platform-dependent. Hence it is not portable.
+Compilation	Java is both Compiled and Interpreted Language.	C++ is a Compiled Language.
+Memory Management	Memory Management is System Controlled.	Memory Management in C++ is Manual.
+Virtual Keyword	It doesn’t have Virtual Keyword.	It has Virtual keywords.
+Multiple Inheritance	It supports only single inheritance. Multiple inheritances are achieved partially using interfaces.	It supports both single and multiple Inheritance.
+Overloading	It supports only method overloading and doesn’t allow operator overloading.	It supports both method and operator overloading.
+Pointers	It has limited support for pointers.	It strongly supports pointers.
+Libraries	It doesn’t support direct native library calls but only Java Native Interfaces.	It supports direct system library calls, making it suitable for system-level programming.
+Libraries	Libraries have a wide range of classes for various high-level services.	C++ libraries have comparatively low-level functionalities.
+Documentation Comment	It supports documentation comments (e.g., /**.. */) for source code.	It doesn’t support documentation comments for source code.
+Thread Support	Java provides built-in support for multithreading. 	C++ doesn’t have built-in support for threads, depends on third-party threading libraries.
+Type	Java is only an object-oriented programming language.	C++ is both a procedural and an object-oriented programming language.
+Input-Output mechanism	Java uses the (System class): System.in for input and System.out for output.	C++ uses cin for input and cout for an output operation.
+goto Keyword	Java doesn’t support goto Keyword	C++ supports goto keyword.
+Structures and Unions	Java doesn’t support Structures and Unions.	C++ supports Structures and Unions.
+Parameter Passing	Java supports only the Pass by Value technique.	C++ supports both Pass by Value and pass by reference.
+Global Scope	It supports no global scope.	It supports both global scope and namespace scope.
+Object Management	Automatic object management with garbage collection.	It supports manual object management using new and delete.
+Call by Value and Call by reference	Java supports only call by value.	C++ both supports call by value and call by reference.
+Hardware	Java is not so interactive with hardware.	C++ is nearer to hardware.
