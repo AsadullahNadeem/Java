@@ -6,7 +6,6 @@ public class Day5switch {
         int button = sc.nextInt();
 
         switch (button){
-
             case 1:
                 System.out.println("hello");
                 break;
@@ -25,7 +24,6 @@ public class Day5switch {
             default:
                 System.out.println("Invalid Button");
                 break;
-
         }
     }
 }
