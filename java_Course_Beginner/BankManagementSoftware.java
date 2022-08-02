@@ -69,7 +69,7 @@ class BankAccount{
         do{
             System.out.println("********************************************");
             System.out.println("Choose an option");
-            option=sc.next().charAt(0);
+            option = sc.next().charAt(0);
             System.out.println("\n");
 
             switch (option){
