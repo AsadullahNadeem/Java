@@ -17,40 +17,40 @@ public class Day9
                 "  \\ \\     `-.______ /              |  '.'                           | |     / /   \n" +
                 "   \\ '.            `               |   /                            | |   .' /    \n" +
                 "    '._)                           `'-'                             |_|  (_.'     \n");
-        System.out.println("  num(!1)   Celsius to Fahrenheit (C to F).");
-        celsius main = new celsius();
-        main.main();
+        System.out.println("  Num(!1)   Celsius to Fahrenheit (C to F).\n  Num(!2) float Celsius to Fahrenheit (C to F).");
+        celsius mainZ = new celsius();
         celsiuss  mainb = new celsiuss();
+        mainZ.mainZ();
         mainb.mainb();
     }
 }
 class celsius{
-    void main(){
-        int a , b, c, d, cels;
-        Scanner ce = new Scanner(System.in);
-        int BUCE = ce.nextInt();
-
-        if (BUCE == 1){
-            System.out.println("  (0°C × 9/5) + 32 = 32°F");
-
-            a = ce.nextInt();
-            System.out.println("  Type a number:");
-
-            b = ce.nextInt();
-            System.out.println(" Type Another Number:");
-            c = ce.nextInt();
-            System.out.println(" Type Another Number:");
-            d = ce.nextInt();
-            System.out.println(" Type Another Number:");
-
-            cels = a*b/c+d;
-            System.out.println( a + " C = > " + cels +" fahrenheit" );
-
-        }
+    void mainZ(){
+    int a, cels;
+    Scanner cs = new Scanner(System.in);
+    int csb = cs.nextInt();
+    if (csb == 1)
+    {
+        System.out.println("32°c");
+        a = cs.nextInt();
+        System.out.println("  (0°C × 9/5) + 32 = 32°F  ");
+        cels = ( a * 9/5)+32;
+        System.out.println(  a + "  °C=> " + cels + "fahrenheit");
+        System.out.println(" next line print type 2 And then new line print");
+    }
     }
 }
 class celsiuss {
     void mainb(){
-
+        float a, celss;
+        Scanner cs = new Scanner(System.in);
+        float csbb = cs.nextFloat();
+        System.out.println("The float keyword is a data type that can store fractional numbers from 3.4e−038 to 3.4e+038.\n ");
+        if (csbb == 2) {
+            System.out.println("  (0°C × 9/5) + 32 = 32°F  ");
+            a = cs.nextFloat();
+            celss = ( a * 9 / 5) + 32;
+            System.out.println( a + "°C=> " + celss + "fahrenheit");
+        }
     }
 }
