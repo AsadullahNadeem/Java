@@ -20,10 +20,17 @@ public class Day9
         System.out.println("      Celsius to Fahrenheit (C to F).");
         celsius main = new celsius();
         main.main();
+        celsiuss  mainb = new celsiuss();
+        mainb.mainb();
     }
 }
 class celsius{
     void main(){
+
+    }
+}
+class celsiuss {
+    void mainb(){
 
     }
 }
