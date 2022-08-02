@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/java_rest_Course/Day_challengB/Day_challengB.iml" filepath="$PROJECT_DIR$/java_rest_Course/Day_challengB/Day_challengB.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-And-Kotlin.iml" filepath="$PROJECT_DIR$/Java-And-Kotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_rest_Course/java_rest.iml" filepath="$PROJECT_DIR$/java_rest_Course/java_rest.iml" />
     </modules>
