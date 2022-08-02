@@ -26,6 +26,7 @@ public class Day9
 }
 class celsius{
     void main(){
+        
     }
 }
 class celsiuss {
