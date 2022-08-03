@@ -20,7 +20,7 @@ class celsiusd{
             a = cs.nextInt();
             System.out.println("  (0°C × 9/5) + 32 = 32°F  ");
             cels = (a-32)*5/9;
-            System.out.println(  a + "  °F2=> " + cels + "celsius");
+            System.out.println(  a + "  °F=> " + cels + "celsius");
             System.out.println(" next line print type 2 And then new line print");
         }
     }
