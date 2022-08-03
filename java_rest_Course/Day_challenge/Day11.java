@@ -1,2 +1,1 @@
-public class Day11 {
-}
+public class Day11{}
