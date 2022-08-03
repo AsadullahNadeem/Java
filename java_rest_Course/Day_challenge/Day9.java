@@ -23,9 +23,10 @@ public class Day9
         mainZ.mainZ();
         mainb.mainb();
     }
+
 }
 class celsius{
-    void mainZ(){
+   public void mainZ(){
     int a, cels;
     Scanner cs = new Scanner(System.in);
     int csb = cs.nextInt();
@@ -41,7 +42,7 @@ class celsius{
     }
 }
 class celsiuss {
-    void mainb(){
+  public void mainb(){
         float a, celss;
         Scanner cs = new Scanner(System.in);
         float csbb = cs.nextFloat();
