@@ -32,7 +32,7 @@ class celsiussh {
         float csbb = cs.nextFloat();
         System.out.println("The float keyword is a data type that can store fractional numbers from 3.4e−038 to 3.4e+038.\n ");
         if (csbb == 2) {
-            System.out.println("  (0°C × 9/5) + 32 = 32°F  ");
+            System.out.println("  (0°F-32) *5/9 = 32°F  ");
             a = cs.nextFloat();
             celss = (a-32)*5/9;
             System.out.println( a + "°F=> " + celss + "celsius");
